@@ -1,0 +1,12 @@
+__pycache__/
+
+.gitignore
+.git/
+
+*.pyc
+*.pyi
+
+tests
+
+.idea
+.venv
