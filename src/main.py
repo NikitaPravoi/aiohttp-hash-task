@@ -1,7 +1,7 @@
 import click
 from aiohttp import web
-from controllers.healthcheck import healthcheck
-from controllers.hash import hash_string
+from src.controllers import (healthcheck,
+                         hash_string)
 
 
 def app_assembly() -> web.Application:
