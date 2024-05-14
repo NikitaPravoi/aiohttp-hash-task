@@ -29,6 +29,12 @@
     ```sh
    source /path/to/venv/activate.sh
    ```
+
+2. **Установить необходимые библиотеки:**
+   ```sh
+   pip install --no-cache-dir aiohttp click pytest pytest-aiohttp
+   ```
+   
 2. **Запустить приложение:**
 
     ```sh
